@@ -1,0 +1,23 @@
+seed = [42, 43 ,44] # Shaded area reflects the uncertainty estimated by 3 random seeds
+
+pin_memory = true
+num_workers = 1
+batch_size = 2
+train_size = 0.95
+num_epochs = 10
+num_splits = 5  # Number of cross-validation splits
+learning_rate = 0.001
+device0 = 'cuda'
+device = 'cpu'
+
+node_dim = 1
+vector_dim = 3
+edge_dim = 4
+cutoff = 4
+scale = 2
+
+directory_path = '/home/she0000/PycharmProjects/pythonProject/Ex2/data/task2'
+data_dir = '/home/she0000/PycharmProjects/pythonProject/Ex2/data/'
+
+
+
